@@ -1,0 +1,245 @@
+@media ( max-width: 1024px) {
+    header {
+        max-width: 950px;
+       padding: 40px;    
+    }
+    .header-links a {
+        margin-right: 10px;
+    }
+    .container {
+        max-width: 900px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .box p {
+        font-size: 13px;
+        line-height: 25px;
+        } 
+    .header-links a {
+        font-size: 14px;
+        line-height: 15px;
+        }
+    .box-letter h2{
+        font-size: 20px;
+       }
+    .box-letter p {
+            font-size: 15px;
+        }
+    .statistic {
+        padding-top: 60px;
+    }
+    .box-function h2 {
+        font-size: 30px;
+        margin: 65px 0 15px 100px;
+    }
+    .box-function p {
+        font-size: 13px;
+        line-height: 25px;
+        margin-left: 100px ;
+        margin-bottom: 15px;
+    }
+    .opportunity  {
+        gap: 10px;
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 100px ;
+    }
+    .box-function {
+        padding: 50px 0;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 30px 0;
+    }
+    .short-width-h2 {
+        width: 280px;
+    }
+    .short-width-p {
+        width: 450px;
+    }
+    .long-width-h2 {
+        width: 340px;
+    }
+    .theme-page {
+        padding: 50px 0 40px;
+        gap: 20px;
+    }
+    .price-page {
+        gap: 35px;
+        padding-bottom: 50px;
+    }
+    .box-price {
+        padding: 40px ;
+    }
+    .in-price {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .carts {
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+    .customer-cart {
+        width: 370px;
+    }
+    .photo-name-country-rank {
+        padding-bottom: 15px;
+    }
+    h5 {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .description p {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .country p {
+        font-size: 12px;
+    }
+     .prev-next {
+         padding: 16px;
+     }
+     .subscribe {
+        top: 60px;
+    }
+    footer {
+        padding: 150px 0 60px 0;
+    }
+     .top-line {
+        font-size: 15px;
+        padding-bottom: 18px;
+    }
+    .footer-column a {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .footer-column p {
+        font-size: 13px;
+        width: 335px;
+        padding-bottom: 25px;
+        padding-right: 200px;
+    }
+    .copyright p{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .footer-column a {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    
+    header {
+        max-width: 720px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .header-links {
+        padding-left: 155px;
+    }
+    .sign-in {
+        padding: 5px 0 25px 485px;
+    }
+    .container {
+        max-width: 670px;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .box p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        } 
+    .header-links a {
+        font-size: 12px;
+        line-height: 15px;
+        }
+     .sign-in button {
+         width: 120px;
+         height: 39px;
+         font-size: 14px;
+         margin-left: 10px;
+     }
+     .sign-in a{
+         font-size: 14px;
+     }
+     .box a {
+        padding: 14.5px 50.5px;
+        font-size: 13px;
+    }
+    .box-letter h2{
+        font-size: 15px;
+       }
+    .box-letter p {
+            font-size: 12px;
+        }
+    .statistic {
+        padding: 30px 10px 10px 10px;
+    }
+    .statistic svg {
+        height: 90px;
+    }
+    .box-function h2 {
+        font-size: 25px;
+        margin: 15px 0 15px 50px;
+    }
+    .box-function p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 50px ;
+        margin-bottom: 8px;
+    }
+    .opportunity  {
+        gap: 7px;
+        font-size: 12px;
+        line-height: 10px;
+        margin-left: 50px ;
+        margin-bottom: 5px;
+    }
+    .price-page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .customer-cart {
+        width: 300px;
+    }
+    .footer-column p {
+      width: 335px;
+      padding-right: 0px;
+    }
+    .footer-column {
+     gap: 7px;
+     margin-right: 10px;
+    }
+    .top-line {
+        font-size: 16px;
+        padding-bottom: 10px;
+   }
+   .footer-column a {
+        font-size: 13px;
+        padding-bottom: 0px;
+}
+
+}
