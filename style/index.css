@@ -11,6 +11,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.open{
+    display: flex !important;
+}
+.header-links {
+    display: flex;
+    padding: 0 40px;
+}
 .header-links a {
     font-family: 'Rubik';
     font-style: normal;
@@ -19,6 +26,12 @@ header {
     line-height: 19px;
     color: #4F5665;
     margin-right: 40px;
+}
+.header-links ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .sign-in button {
     font-family: 'Rubik';
@@ -49,10 +62,53 @@ button:hover {
 .sign-in a:hover{
     color: #F53855;
 }
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color:#F53855 ;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #F53855 ;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
 
 .container {
     max-width: 1140px ;
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 0 30px;
 }
 .row {
     display: flex;
@@ -95,6 +151,21 @@ h1 {
 }
 .box a:hover{
     box-shadow: 0px 35px 25px -15px rgba(245, 56, 56, 0.35);
+}
+.subscribe-button button {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 17.5px 77.5px;
+    background: #F53838;
+    border-radius: 10px;
+    border: none;  
+    color: #FFFFFF;
+    width: 100%;
+}
+.subscribe-button button:hover {
+        box-shadow: 0px 35px 25px -15px rgba(245, 56, 56, 0.35);
 }
 .box-image-1 {
     margin: 20px 0 0 20px;
@@ -168,7 +239,7 @@ h1 {
     margin-bottom: 20px;
 }
 .box-function {
-    padding: 50px 0 130px 0;
+    padding: 20px 0 30px 0;
 
 }
 .price-page-background {
@@ -199,6 +270,7 @@ h1 {
     padding: 80px 0 60px;
     gap: 20px;
 }
+
 h2 {
     font-family: 'Rubik';
     font-style: normal;
@@ -383,11 +455,12 @@ h5 {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 20px #f1f1f1;
     position: relative;
-    top: 130px;
+    top: 90px;
+    padding: 20px;
 }
 
 .subscribe h2 {
-    text-align:left
+    width: 70%;
 }
 footer {
     background-color: #F8F8F8;
